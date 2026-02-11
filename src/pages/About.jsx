@@ -52,7 +52,7 @@ export default function About() {
           </div>
           <div className="glass-card overflow-hidden p-6">
             <img
-              src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1600&auto=format&fit=crop"
+              src="/images/models-hero.png"
               alt="TENZI production"
               className="h-72 w-full rounded-3xl object-cover"
             />

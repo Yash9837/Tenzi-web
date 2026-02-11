@@ -110,7 +110,7 @@ export default function Collections() {
                       <img
                         src={
                           product.mainPhotoURL ||
-                          "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop"
+                          "/images/jeans.png"
                         }
                         alt={product.name}
                         className="h-full w-full object-cover"

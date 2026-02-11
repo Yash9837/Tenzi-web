@@ -3,36 +3,31 @@ export const categories = [
     id: "jeans",
     name: "Jeans",
     description: "Signature washes, structured fits, and premium stretch denim built for modern retail floors.",
-    image:
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/jeans.png"
   },
   {
     id: "cargo",
     name: "Cargo",
     description: "Utility-forward silhouettes crafted with rugged twills and reinforced stitching.",
-    image:
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/cargos.png"
   },
   {
     id: "trousers",
     name: "Trousers",
     description: "Tailored trousers and micro-textured formals engineered for premium assortments.",
-    image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/trouser.png"
   },
   {
     id: "pants",
     name: "Pants",
     description: "Versatile pants designed for year-round sell-through and consistent size runs.",
-    image:
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/formalpant.png"
   },
   {
     id: "joggers",
     name: "Joggers",
     description: "Soft-touch joggers engineered with comfort blends and precision branding.",
-    image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/straightfitjeans.png"
   }
 ];
 
@@ -44,8 +39,7 @@ export const featuredProducts = [
     fit: "Tapered",
     fabric: "Cotton Twill",
     wash: "Stone",
-    image:
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/model-cargo.jpg"
   },
   {
     name: "CURVE",
@@ -54,8 +48,7 @@ export const featuredProducts = [
     fit: "Slim Fit",
     fabric: "Stretch Denim",
     wash: "Dark Indigo",
-    image:
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/jeans.png"
   },
   {
     name: "MASTER",
@@ -64,8 +57,7 @@ export const featuredProducts = [
     fit: "Tailored",
     fabric: "Micro-texture",
     wash: "Charcoal",
-    image:
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/formalpant.png"
   },
   {
     name: "JINDAL",
@@ -74,8 +66,7 @@ export const featuredProducts = [
     fit: "Slim",
     fabric: "Premium Cotton",
     wash: "Sand",
-    image:
-      "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1600&auto=format&fit=crop"
+    image: "/images/trouser.png"
   }
 ];
 

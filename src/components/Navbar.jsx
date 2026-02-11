@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className="fixed top-0 z-50 w-full border-b border-border bg-background">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-full bg-primary" />
+          <img src="/images/logo.png" alt="Tenzi Logo" className="h-10 w-10 object-contain" />
           <div>
             <p className="font-display text-lg tracking-[0.4em]">TENZI</p>
           </div>

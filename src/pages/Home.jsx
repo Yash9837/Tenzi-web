@@ -91,7 +91,7 @@ export default function Home() {
                 style={{ aspectRatio: heroAspectRatio }}
               >
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/tenzi-web.firebasestorage.app/o/Gemini_Generated_Image_659x13659x13659x.png?alt=media&token=f5bf1424-6a70-4e13-964c-58a50594757b"
+                  src="/images/models-hero.png"
                   alt="TENZI premium trousers"
                   className="h-full w-full object-contain"
                   loading="eager"
@@ -179,7 +179,7 @@ export default function Home() {
                   src={
                     product.mainPhotoURL ||
                     product.image ||
-                    "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop"
+                    "/images/jeans.png"
                   }
                   alt={product.name}
                   className="h-28 w-full rounded-2xl object-cover sm:h-32 sm:w-40"

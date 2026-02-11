@@ -41,11 +41,8 @@ const starterProducts = [
     fabric: "Cotton Twill",
     fit: "Tapered Fit",
     wash: "Charcoal",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/model-cargo.jpg",
+    photoURLs: ["/images/model-cargo.jpg", "/images/cargos.png"]
   },
   {
     name: "CURVE",
@@ -58,11 +55,8 @@ const starterProducts = [
     fabric: "Stretch Denim",
     fit: "Slim Fit",
     wash: "Dark Indigo",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/jeans.png",
+    photoURLs: ["/images/jeans.png", "/images/straightfitjeans.png"]
   },
   {
     name: "JINDAL",
@@ -75,11 +69,8 @@ const starterProducts = [
     fabric: "Cotton Stretch",
     fit: "Slim Fit",
     wash: "Sand",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/trouser.png",
+    photoURLs: ["/images/trouser.png"]
   },
   {
     name: "BMW",
@@ -92,11 +83,8 @@ const starterProducts = [
     fabric: "Cotton Blend",
     fit: "Regular Fit",
     wash: "Graphite",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/formalpant.png",
+    photoURLs: ["/images/formalpant.png"]
   },
   {
     name: "MASTER",
@@ -109,11 +97,8 @@ const starterProducts = [
     fabric: "Micro-Textured",
     fit: "Tailored Fit",
     wash: "Jet Black",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/formalpant.png",
+    photoURLs: ["/images/formalpant.png"]
   },
   {
     name: "LP",
@@ -126,11 +111,8 @@ const starterProducts = [
     fabric: "Cotton Stretch",
     fit: "Relaxed Fit",
     wash: "Stone",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/straightfitjeans.png",
+    photoURLs: ["/images/straightfitjeans.png"]
   },
   {
     name: "GRAND",
@@ -143,11 +125,8 @@ const starterProducts = [
     fabric: "Hybrid Blend",
     fit: "Regular Fit",
     wash: "Cinder",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/trouser.png",
+    photoURLs: ["/images/trouser.png"]
   },
   {
     name: "FIRE",
@@ -160,11 +139,8 @@ const starterProducts = [
     fabric: "Micro-Texture",
     fit: "Slim Fit",
     wash: "Onyx",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/formalpant.png",
+    photoURLs: ["/images/formalpant.png"]
   },
   {
     name: "STAR",
@@ -177,11 +153,8 @@ const starterProducts = [
     fabric: "Micro-Stripe",
     fit: "Tailored Fit",
     wash: "Charcoal",
-    mainPhotoURL:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1400&auto=format&fit=crop",
-    photoURLs: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1200&auto=format&fit=crop"
-    ]
+    mainPhotoURL: "/images/formalpant.png",
+    photoURLs: ["/images/formalpant.png"]
   }
 ];
 
