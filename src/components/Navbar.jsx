@@ -37,13 +37,18 @@ export default function Navbar() {
           <Button to="/wholesale" variant="outline" className="hidden md:inline-flex">
             Request Price List
           </Button>
-          <Button to="/wholesale">Become a Partner</Button>
+          <Button
+            to="/wholesale"
+            className="!px-3 !py-2 !text-xs md:!px-6 md:!py-3 md:!text-sm"
+          >
+            Become a Partner
+          </Button>
           <button
             type="button"
             onClick={() => setOpen((prev) => !prev)}
-            className="md:hidden rounded-full border border-border px-3 py-2 text-xs uppercase tracking-[0.3em] text-muted"
+            className="rounded-full border border-border px-3 py-2 text-xs uppercase tracking-[0.3em] text-muted md:hidden"
           >
-            Menu
+            {open ? "Close" : "Menu"}
           </button>
         </div>
       </nav>
@@ -62,6 +67,14 @@ export default function Navbar() {
             <NavLink to="/wholesale" className={navLinkClasses} onClick={() => setOpen(false)}>
               Wholesale
             </NavLink>
+            <div className="mt-4 flex flex-col gap-3">
+              <Button to="/wholesale" onClick={() => setOpen(false)}>
+                Become a Partner
+              </Button>
+              <Button to="/wholesale" variant="outline" onClick={() => setOpen(false)}>
+                Request Price List
+              </Button>
+            </div>
           </div>
         </div>
       )}
