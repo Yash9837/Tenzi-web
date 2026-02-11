@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold uppercase tracking-wide transition disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-background shadow-soft hover:bg-charcoal focus:outline-none focus:ring-2 focus:ring-primary/30 disabled:bg-muted disabled:hover:bg-muted;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-background focus:outline-none focus:ring-2 focus:ring-primary/20 disabled:border-muted disabled:text-muted disabled:hover:bg-transparent disabled:hover:text-muted;
+  }
+
+  .glass-card {
+    @apply rounded-3xl border border-border bg-background shadow-card;
+  }
+
+  .section {
+    @apply px-6 py-16 sm:px-10 lg:px-16;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-semibold text-primary sm:text-4xl;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.3em] text-charcoal;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
